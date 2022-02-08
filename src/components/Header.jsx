@@ -25,7 +25,7 @@ const Header =()=>{
             <Link to="/"><img src={pokeLogo} height={"47"} width={"128"} alt="logo"/></Link>
              <div className="header-navigation">
                 <Link to="/">Explore</Link>
-                <Link to="/mypokemon">MyPokemon</Link>
+                <Link to="/mypokemon" data-testid="mypokemon-link">MyPokemon</Link>
             </div>
         </ContainerHeader>
     )

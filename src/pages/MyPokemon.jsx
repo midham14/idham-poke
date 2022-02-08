@@ -89,6 +89,10 @@ const MyPokemon = () => {
                 :
                 null
             }
+
+            {
+                myPokeList.length < 1 ? <div>Empty pokemon Go Catch !</div>:null
+            }
            
             {
                 myPokeList.map((value,index) => {
