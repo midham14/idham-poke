@@ -2,5 +2,5 @@
 
 - [x] Home page
 - [x] Detail Page
-- [x] HMyPokemon Page
+- [x] MyPokemon Page
 - [ ] Testing
