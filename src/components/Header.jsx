@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from '@emotion/styled'
 import pokeLogo from '../poke-logo.webp'
-const Header =()=>{
+const Header = () => {
     const ContainerHeader = styled.div`
         display:flex;
         justify-content:space-between;
@@ -21,9 +21,9 @@ const Header =()=>{
         }
     `
     return (
-        <ContainerHeader>
-            <Link to="/"><img src={pokeLogo} height={"47"} width={"128"} alt="logo"/></Link>
-             <div className="header-navigation">
+        <ContainerHeader data-testid="container-header">
+            <Link to="/"><img src={pokeLogo} height={"47"} width={"128"} alt="logo" /></Link>
+            <div className="header-navigation">
                 <Link to="/">Explore</Link>
                 <Link to="/mypokemon" data-testid="mypokemon-link">MyPokemon</Link>
             </div>
