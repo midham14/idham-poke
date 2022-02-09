@@ -26,6 +26,7 @@ const Header = () => {
             <div className="header-navigation">
                 <Link to="/">Explore</Link>
                 <Link to="/mypokemon" data-testid="mypokemon-link">MyPokemon</Link>
+                <a href="https://github.com/midham14/idham-poke" target="_blank">Github</a>
             </div>
         </ContainerHeader>
     )
